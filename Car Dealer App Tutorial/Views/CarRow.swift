@@ -8,19 +8,22 @@
 import SwiftUI
 
 struct CarRow: View {
+    
+    var car: Car
+    
     var body: some View {
         VStack(alignment: .leading) {
-            Image("car1")
+            Image(car.carImage)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
             HStack {
-                Text("Super Car")
+                Text(car.carName)
                     .font(.title)
                     .fontWeight(.semibold)
                     .padding(.leading)
                 Spacer()
-                Text("$90,9999")
+                Text(car.carPrice)
                     .font(.headline)
                     .padding(.trailing)
        
@@ -31,6 +34,6 @@ struct CarRow: View {
 
 struct CarRow_Previews: PreviewProvider {
     static var previews: some View {
-        CarRow()
+        CarRow(car: Car(carName: "Super Car", carImage: "car1", carPrice: "190,000"))
     }
 }
