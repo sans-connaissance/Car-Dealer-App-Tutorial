@@ -34,6 +34,6 @@ struct CarRow: View {
 
 struct CarRow_Previews: PreviewProvider {
     static var previews: some View {
-        CarRow(car: Car(carName: "Super Car", carImage: "car1", carPrice: "190,000"))
+        CarRow(car: Car(id: 0, carName: "Super Car", carImage: "car1", carPrice: "190,000"))
     }
 }

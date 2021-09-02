@@ -12,7 +12,6 @@
 		41F72F7E26E0569C00E270EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F72F7D26E0569C00E270EE /* Assets.xcassets */; };
 		41F72F8126E0569C00E270EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F72F8026E0569C00E270EE /* Preview Assets.xcassets */; };
 		41F72F8A26E0587B00E270EE /* CarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F72F8926E0587B00E270EE /* CarRow.swift */; };
-		41F72F8D26E0604800E270EE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F72F8C26E0604800E270EE /* DataModel.swift */; };
 		41F72F8F26E0605000E270EE /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F72F8E26E0605000E270EE /* Car.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		41F72F8026E0569C00E270EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41F72F8226E0569C00E270EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41F72F8926E0587B00E270EE /* CarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRow.swift; sourceTree = "<group>"; };
-		41F72F8C26E0604800E270EE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		41F72F8E26E0605000E270EE /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +86,6 @@
 		41F72F8B26E0603700E270EE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				41F72F8C26E0604800E270EE /* DataModel.swift */,
 				41F72F8E26E0605000E270EE /* Car.swift */,
 			);
 			path = Model;
@@ -164,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F72F8A26E0587B00E270EE /* CarRow.swift in Sources */,
-				41F72F8D26E0604800E270EE /* DataModel.swift in Sources */,
 				41F72F8F26E0605000E270EE /* Car.swift in Sources */,
 				41F72F7C26E0569A00E270EE /* CarList.swift in Sources */,
 				41F72F7A26E0569A00E270EE /* Car_Dealer_App_TutorialApp.swift in Sources */,

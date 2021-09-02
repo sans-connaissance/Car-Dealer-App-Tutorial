@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Car {
+struct Car: Identifiable {
     
+    var id: Int
     var carName: String
     var carImage: String
     var carPrice: String
