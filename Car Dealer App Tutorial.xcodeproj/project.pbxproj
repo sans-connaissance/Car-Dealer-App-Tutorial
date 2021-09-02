@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		41F72F7A26E0569A00E270EE /* Car_Dealer_App_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F72F7926E0569A00E270EE /* Car_Dealer_App_TutorialApp.swift */; };
-		41F72F7C26E0569A00E270EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F72F7B26E0569A00E270EE /* ContentView.swift */; };
+		41F72F7C26E0569A00E270EE /* CarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F72F7B26E0569A00E270EE /* CarList.swift */; };
 		41F72F7E26E0569C00E270EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F72F7D26E0569C00E270EE /* Assets.xcassets */; };
 		41F72F8126E0569C00E270EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F72F8026E0569C00E270EE /* Preview Assets.xcassets */; };
+		41F72F8A26E0587B00E270EE /* CarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F72F8926E0587B00E270EE /* CarRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41F72F7626E0569A00E270EE /* Car Dealer App Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Dealer App Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F72F7926E0569A00E270EE /* Car_Dealer_App_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_Dealer_App_TutorialApp.swift; sourceTree = "<group>"; };
-		41F72F7B26E0569A00E270EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41F72F7B26E0569A00E270EE /* CarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarList.swift; sourceTree = "<group>"; };
 		41F72F7D26E0569C00E270EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F72F8026E0569C00E270EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41F72F8226E0569C00E270EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F72F8926E0587B00E270EE /* CarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,8 @@
 		41F72F7826E0569A00E270EE /* Car Dealer App Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				41F72F8826E0584900E270EE /* Views */,
 				41F72F7926E0569A00E270EE /* Car_Dealer_App_TutorialApp.swift */,
-				41F72F7B26E0569A00E270EE /* ContentView.swift */,
 				41F72F7D26E0569C00E270EE /* Assets.xcassets */,
 				41F72F8226E0569C00E270EE /* Info.plist */,
 				41F72F7F26E0569C00E270EE /* Preview Content */,
@@ -67,6 +69,15 @@
 				41F72F8026E0569C00E270EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41F72F8826E0584900E270EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41F72F7B26E0569A00E270EE /* CarList.swift */,
+				41F72F8926E0587B00E270EE /* CarRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F72F7C26E0569A00E270EE /* ContentView.swift in Sources */,
+				41F72F8A26E0587B00E270EE /* CarRow.swift in Sources */,
+				41F72F7C26E0569A00E270EE /* CarList.swift in Sources */,
 				41F72F7A26E0569A00E270EE /* Car_Dealer_App_TutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
